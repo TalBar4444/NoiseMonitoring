@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkest_gray">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/recordInfo_LL_topBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/recordInfo_LBL_back"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_back"
+                android:gravity="center"
+                android:paddingVertical="18dp"
+                android:paddingStart="20dp"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:paddingVertical="18dp"
+                android:text="Record info"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:minLines="1"
+                android:maxLines="1"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/recordInfo_LBL_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingVertical="18dp"
+                android:paddingEnd="20dp"
+                android:drawableStart="@drawable/ic_info_outline"
+                android:textSize="20sp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Min Noise Level:"
+                android:textSize="18sp"
+                android:textColor="@color/white" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/recordInfo_LBL_minNoiseLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="17sp"
+                android:textColor="@color/white"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="4dp"
+                android:text="Max Noise Level:"
+                android:textSize="18sp"
+                android:textColor="@color/white" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/recordInfo_LBL_maxNoiseLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="17sp"
+                android:textColor="@color/white"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="4dp"
+                android:text="average Noise Level:"
+                android:textSize="18sp"
+                android:textColor="@color/white" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/recordInfo_LBL_averageNoiseLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="17sp"
+                android:textColor="@color/white"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="4dp"
+                android:text="Date:"
+                android:textSize="18sp"
+                android:textColor="@color/white" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/recordInfo_LBL_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="17sp"
+                android:textColor="@color/white"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="4dp"
+                android:text="Duration:"
+                android:textSize="18sp"
+                android:textColor="@color/white" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/recordInfo_LBL_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="17sp"
+                android:textColor="@color/white"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

@@ -35,7 +35,7 @@ A professional Android application for real-time noise monitoring, audio recordi
 1. Clone the repository  
    ```bash
    git clone https://github.com/TalBar4444/NoiseMonitoring.git
-```
+   
 2. Open in Android Studio
 
 3. Build and run the app on your Android device

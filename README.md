@@ -1,7 +1,7 @@
 # 📡 Noise Monitoring App
 
 A professional Android application for real-time noise monitoring, audio recording, and analysis. Through foreground and background services, allowing continuous data capture even when the user navigates away from the screen. Visual feedback and smart data analysis provides to the users.
----
+
 
 ## ✨ Features
 

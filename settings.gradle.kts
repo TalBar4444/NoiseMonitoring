@@ -20,6 +20,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Mobile security app"
+rootProject.name = "Noise Monitoring"
 include(":app")
  

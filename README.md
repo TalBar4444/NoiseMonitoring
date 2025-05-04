@@ -7,6 +7,10 @@ A professional Android application for real-time noise monitoring, audio recordi
   <img src="screenshots/home.png" alt="home screen" width="300"/>
 </p>
 
+<p agile="start">
+  <img src="screenshots/active.png" alt="active mode" width="270"/>
+</p>
+
 ## ✨ Features
 
 - 🎙️ **Continuous Audio Recording**  

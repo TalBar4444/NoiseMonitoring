@@ -3,15 +3,15 @@
 A professional Android application for real-time noise monitoring, audio recording, and analysis. Through foreground and background services, allowing continuous data capture even when the user navigates away from the screen. Visual feedback and smart data analysis provides to the users.
 
 ## Screenshots
-<p agile="start">
+<p agile="center">
   <img src="screenshots/home.png" alt="home screen" width="270"/>
 </p>
 
-<p agile="start">
+<p agile="center">
   <img src="screenshots/active.png" alt="active mode" width="270"/>
 </p>
 
-<p agile="start">
+<p agile="center">
   <img src="screenshots/records.png" alt="records screen" width="270"/>
 </p>
 
